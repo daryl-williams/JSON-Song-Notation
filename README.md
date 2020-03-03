@@ -11,14 +11,14 @@ Depending on the client. To that end there is related project called SongWriter 
 
 Following is a descriptive layout of the JSN format, representing an example song in 4/4 time with only one measure:
 
-```
+```json
 Example song using JSN format:
 
 {
  "header": {
         "key": "C",
         "title": "Twinkle Twinkle Little Star",
-        "composer": "Traditional,
+        "composer": "Traditional",
         "time-signature": 4,
         "number-of-measures": 1
     },
