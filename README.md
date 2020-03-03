@@ -11,7 +11,7 @@ Depending on the client. To that end there is related project called SongWriter 
 
 Following is a descriptive layout of the JSN format, representing an example song in 4/4 time with only one measure:
 
-```json
+```
 Example song using JSN format:
 
 {
