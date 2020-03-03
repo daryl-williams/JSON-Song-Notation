@@ -20,7 +20,7 @@ Example song using JSN format:
         "title": "Twinkle Twinkle Little Star",
         "composer": "Traditional,
         "time-signature": 4,
-        "number_of_measures": 1
+        "number-of-measures": 1
     },
     "body": {
         "measures": [
