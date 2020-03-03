@@ -1,5 +1,5 @@
 # JSON Song Notation
-The JSON Song Notation (or JSN from now on) data structure is meant to be a simple representation of a song, defined as some number of measures consisting of some number of beats per measure and each beat containing some number of voices.
+The JSON Song Notation (or JSN from now on) data structure is meant to be a simple representation of a song, defined as some number of measures, consisting of some number of beats per measure with each beat containing some number of voices, i.e. a chord or lyric or a symbolic representation of the beat itself among other possibilities.
 
 So a song represented as JSN consists of a header and body which are both JSON objects. The header contains song metadata and the body contains the measures and beats of the song. The song's measures are represented as an array and each array element counts as a beat and each beat is represented as an array containing some number of Javascript objects each one representing one voice that occur on that beat.
 
