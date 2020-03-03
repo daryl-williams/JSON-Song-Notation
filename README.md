@@ -48,7 +48,7 @@ Example song using JSN format:
                 }
             }, {
                 "beat4": {
-                    "voice1": "",
+                    "voice1": "C",
                     "voice2": "/",
                     "voice3": "star"
                 }
