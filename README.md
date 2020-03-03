@@ -16,9 +16,9 @@ Example song using JSN format:
 
 {
  "header": {
-        "key": "Some Key",
-        "title": "Song Title",
-        "composer": "Composer's Name",
+        "key": "C",
+        "title": "Twinkle Twinkle Little Star",
+        "composer": "Traditional,
         "time-signature": 4,
         "number_of_measures": 1
     },
