@@ -1,5 +1,5 @@
 # JSON Song Notation
-The JSON Song Notation (or JSN from now on) data structure is meant to be a simple representation of a song, defined as some number of measures, consisting of some number of beats per measure with each beat containing some number of voices, i.e. a chord or lyric or a symbolic representation of the beat itself among other possibilities.
+The JSON Song Notation (or JSN) data structure is meant to be a simple representation of a song, defined as some number of measures, consisting of some number of beats per measure with each beat containing some number of voices, i.e. a chord or lyric or a symbolic representation of the beat itself among other possibilities.
 
 Now there is a wealth of song material on the Internet and most every musician I know either carries a stack of binders or perhaps a tablet or computer with the songs that they will use for practive, or for a jam, or to entertain at open mics or even perform professionaly. Now these collection of songs are seldom repesented as full blown musical scores but rather as simple text with the lyrics and chords. But not all of these songs have neem created equaly and some are just downright wrong and need to be tweaked a bit at the very least, but at least they are usually in a plain text format and so it is possible. 
 
