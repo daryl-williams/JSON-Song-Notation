@@ -1,6 +1,3 @@
-# JSON-Song-Notation
-A song notation syntax that uses a JSON data structure.
-
 # JSON Song Notation
 The JSON Song Notation (or JSN from now on) data structure is meant to be a simple representation of a song, defined as some number of measures consisting of some number of beats per measure. Beyond this base structure the JSN format consists of some number of “voices”, each defined across each beat of each measure.
 
