@@ -23,7 +23,7 @@ Example song using JSN format:
         "key": "C",
         "title": "Twinkle Twinkle Little Star",
         "composer": "Traditional",
-        "time-signature": 4/4,
+        "time-signature": "4/4",
         "beats-per-bar": 4,
         "number-of-measures": 1
     },
