@@ -1,7 +1,7 @@
 # JSON Song Notation
 The JSON Song Notation (or JSN from now on) data structure is meant to be a simple representation of a song, defined as some number of measures, consisting of some number of beats per measure with each beat containing some number of voices, i.e. a chord or lyric or a symbolic representation of the beat itself among other possibilities.
 
-There are many music notation systems out there, if you look. From full blown applications like [Sibelius](https://www.avid.com/sibelius){:target="_blank"}, [MuseScore](https://musescore.org){:target="_blank"}, [Finale](https://www.finalemusic.com/) to formats such as [ChordPro]https://www.chordpro.org/, [abc notation](http://abcnotation.com/) and plain text representation.
+There are many music notation systems out there, if you look. From full blown applications like [Sibelius](https://www.avid.com/sibelius), [MuseScore](https://musescore.org), [Finale](https://www.finalemusic.com/) to formats such as [ChordPro](https://www.chordpro.org), [abc notation](http://abcnotation.com/) and plain text representation.
 
 reason for yet another music notation system is I wanted 
 
