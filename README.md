@@ -5,7 +5,7 @@ So a song represented as JSN consists of a header and body which are both JSON o
 
 A song written in JSN might be rendered in any number of formats or styles for example:
 
-![Chord chart](http://weblane.com:3000/images//whiskey-for-breakfast-small.png) or as ![Chord chart](http://weblane.com:3000/images//wfb.png)
+![Chord chart](http://weblane.com:3000/images//whiskey-for-breakfast-small.png) or perhaps as ![Chord chart](http://weblane.com:3000/images//wfb.png)
 
 Depending on the client. To that end there is related project called SongWriter that is the proof of concept and initial reference implementation fora JSN client.
 
