@@ -1,7 +1,7 @@
 # JSON Song Notation
 The JSON Song Notation (or JSN from now on) data structure is meant to be a simple representation of a song, defined as some number of measures, consisting of some number of beats per measure with each beat containing some number of voices, i.e. a chord or lyric or a symbolic representation of the beat itself among other possibilities.
 
-There are many music notation systems out there, if you look. From full blown applications like ![Sibelius](https://www.avid.com/sibelius)
+There are many music notation systems out there, if you look. From full blown applications like [Sibelius](https://www.avid.com/sibelius)
 reason for yet another music notation system is I wanted 
 
 So a song represented as JSN consists of a header and body which are both JSON objects. The header contains song metadata and the body contains the measures and beats of the song. The song's measures are represented as an array and each array element counts as a beat and each beat is represented as an array containing some number of Javascript objects each one representing one voice that occur on that beat.
