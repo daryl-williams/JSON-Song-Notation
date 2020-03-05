@@ -24,7 +24,7 @@ Example song using JSN format:
 		"composer": "Traditional",
 		"time-signature": "4/4",
 		"beats-per-bar": 4,
-		"number-of-measures": 1
+		"number-of-measures": 2
 	},
 	"body": [
 		[{
