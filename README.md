@@ -17,45 +17,51 @@ Following is a descriptive layout of the JSN format, representing an example son
 
 ```json
 Example song using JSN format:
-
 {
- "header": {
-        "key": "C",
-        "title": "Twinkle Twinkle Little Star",
-        "composer": "Traditional",
-        "time-signature": "4/4",
-        "beats-per-bar": 4,
-        "number-of-measures": 1
-    },
-    "body": {
-        "measures": [
-            [{
-                "beat1": {
-                    "voice1": "C",
-                    "voice2": "/",
-                    "voice3": "Twinkle"
-                }
-            }, {
-                "beat2": {
-                    "voice1": "",
-                    "voice2": "/",
-                    "voice3": "twinkle"
-                }
-            }, {
-                "beat3": {
-                    "voice1": "F",
-                    "voice2": "/",
-                    "voice3": "little"
-                }
-            }, {
-                "beat4": {
-                    "voice1": "C",
-                    "voice2": "/",
-                    "voice3": "star"
-                }
-            }]
-        ]
-    }
+	"header": {
+		"key": "C",
+		"title": "Twinkle Twinkle Little Star",
+		"composer": "Traditional",
+		"time-signature": "4/4",
+		"beats-per-bar": 4,
+		"number-of-measures": 1
+	},
+	"body": [
+		[{
+			"voice1": "C",
+			"voice2": "/",
+			"voice3": "Twinkle"
+		}, {
+			"voice1": "",
+			"voice2": "/",
+			"voice3": "twinkle"
+		}, {
+			"voice1": "F",
+			"voice2": "/",
+			"voice3": "little"
+		}, {
+			"voice1": "C",
+			"voice2": "/",
+			"voice3": "star"
+		}],
+		[{
+			"voice1": "C",
+			"voice2": "/",
+			"voice3": "How "
+		}, {
+			"voice1": "",
+			"voice2": "/",
+			"voice3": "wonder"
+		}, {
+			"voice1": "F",
+			"voice2": "/",
+			"voice3": "what you"
+		}, {
+			"voice1": "C",
+			"voice2": "/",
+			"voice3": "are"
+		}]
+	]
 }
 ```
 
