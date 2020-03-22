@@ -11,7 +11,7 @@ A song written in JSN might be rendered in any number of formats or styles for e
 
 Depending on the client. To that end there is related project called SongWriter that is the proof of concept and initial reference implementation for the JSN client.
 
-A song represented in JSN consists of a header which is a JSON object and a body which is a JSON array. The header contains song metadata and the body contains the measures and beats of the song. The song's measures are represented as an array and each array element is a beat and each beat is a JSON object containing some number of voices which are represented as the object's name/value pairs. The value of the voice is a simple lexical value, but that could could change in the future.
+A song represented in JSN consists of a header which is a JSON object and a body which is a JSON array. The header contains song metadata and the body is an array containing the measures and beats of the song. The song's measures are represented as a JSON object consisting of two JSON object. The first is an optional header (currently not used) and second is the "beats" object containing some number of voices which are represented as the object's name/value pairs. The value of the voice is a simple lexical value, but that could could change in the future.
 
 Following is a descriptive layout of the JSN format, representing an example song in 4/4 time with only one measure:
 
