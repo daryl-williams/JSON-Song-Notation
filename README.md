@@ -13,7 +13,7 @@ Depending on the client. To that end there is related project called SongWriter 
 
 A song represented in JSN consists of a header which is a JSON object and a body which is a JSON array. The header contains song metadata and the body is an array containing the measures and beats of the song. The song's measures are represented as a JSON object consisting of two JSON object. The first is an optional header (currently not used) and second is the "beats" object containing some number of voices which are represented as the object's name/value pairs. The value of the voice is a simple lexical value, but that could could change in the future.
 
-Following is a descriptive layout of the JSN format, representing an example song in 4/4 time with only one measure:
+Following is a descriptive layout of the JSN format, representing an example song in 4/4 time with 12 measures:
 
 ```json
 {
@@ -23,95 +23,79 @@ Following is a descriptive layout of the JSN format, representing an example son
 		"title": "Twinkle Twinkle",
 		"composer": "Traditional",
 		"capo_at_fret": "",
-		"time_signature": "4/4",
+		"time_signature": "4\/4",
 		"beats_per_bar": 4,
 		"number_of_bars": 12
 	},
 	"body": [
 		[{
-				"chord": "C",
-				"metric": 1,
-				"lyric": "Twin - "
-			},
-			{
-				"chord": "",
-				"metric": 1,
-				"lyric": "kle, "
-			},
-			{
-				"chord": "",
-				"metric": 1,
-				"lyric": "twin - "
-			},
-			{
-				"chord": "",
-				"metric": 1,
-				"lyric": "kle, "
-			}
-		],
+			"chord": "C",
+			"metric": 1,
+			"lyric": "Twin - "
+		}, {
+			"chord": "",
+			"metric": 1,
+			"lyric": "kle, "
+		}, {
+			"chord": "",
+			"metric": 1,
+			"lyric": "twin - "
+		}, {
+			"chord": "",
+			"metric": 1,
+			"lyric": "kle, "
+		}],
 		[{
-				"chord": "F",
-				"metric": 1,
-				"lyric": "lit - "
-			},
-			{
-				"chord": "",
-				"metric": 1,
-				"lyric": "tle "
-			},
-			{
-				"chord": "C",
-				"metric": 1,
-				"lyric": "star,"
-			},
-			{
-				"chord": "",
-				"metric": 1,
-				"lyric": ""
-			}
-		],
+			"chord": "F",
+			"metric": 1,
+			"lyric": "lit - "
+		}, {
+			"chord": "",
+			"metric": 1,
+			"lyric": "tle "
+		}, {
+			"chord": "C",
+			"metric": 1,
+			"lyric": "star,"
+		}, {
+			"chord": "",
+			"metric": 1,
+			"lyric": ""
+		}],
 		[{
-				"chord": "F",
-				"metric": 14,
-				"lyric": "How"
-			},
-			{
-				"chord": "",
-				"metric": 1,
-				"lyric": "I"
-			},
-			{
-				"chord": "C",
-				"metric": 1,
-				"lyric": "won -"
-			},
-			{
-				"chord": "",
-				"metric": 1,
-				"lyric": " der "
-			}
-		],
+			"chord": "F",
+			"metric": 14,
+			"lyric": "How"
+		}, {
+			"chord": "",
+			"metric": 1,
+			"lyric": "I"
+		}, {
+			"chord": "C",
+			"metric": 1,
+			"lyric": "won -"
+		}, {
+			"chord": "",
+			"metric": 1,
+			"lyric": " der "
+		}],
 		[{
-				"chord": "G7",
-				"metric": 14,
-				"lyric": "what"
-			},
-			{
-				"chord": "",
-				"metric": 1,
-				"lyric": "you"
-			},
-			{
-				"chord": "C",
-				"metric": 1,
-				"lyric": "are."
-			},
-			{
-				"chord": "",
-				"metric": 1,
-				"lyric": ""
-			}
-		],
+			"chord": "G7",
+			"metric": 14,
+			"lyric": "what"
+		}, {
+			"chord": "",
+			"metric": 1,
+			"lyric": "you"
+		}, {
+			"chord": "C",
+			"metric": 1,
+			"lyric": "are."
+		}, {
+			"chord": "",
+			"metric": 1,
+			"lyric": ""
+		}],
 		[{
 			"chord": "C",
 			"metric": 1,
@@ -130,152 +114,124 @@ Following is a descriptive layout of the JSN format, representing an example son
 			"lyric": "the "
 		}],
 		[{
-				"chord": "C",
-				"metric": 14,
-				"lyric": "world"
-			},
-			{
-				"chord": "",
-				"metric": 1,
-				"lyric": "so"
-			},
-			{
-				"chord": "G7",
-				"metric": 1,
-				"lyric": "high,"
-			},
-			{
-				"chord": "",
-				"metric": 1,
-				"lyric": ""
-			}
-		],
+			"chord": "C",
+			"metric": 14,
+			"lyric": "world"
+		}, {
+			"chord": "",
+			"metric": 1,
+			"lyric": "so"
+		}, {
+			"chord": "G7",
+			"metric": 1,
+			"lyric": "high,"
+		}, {
+			"chord": "",
+			"metric": 1,
+			"lyric": ""
+		}],
 		[{
-				"chord": "C",
-				"metric": 14,
-				"lyric": "like"
-			},
-			{
-				"chord": "",
-				"metric": 1,
-				"lyric": "a"
-			},
-			{
-				"chord": "F",
-				"metric": 1,
-				"lyric": "dia - "
-			},
-			{
-				"chord": "",
-				"metric": 1,
-				"lyric": "mond"
-			}
-		],
+			"chord": "C",
+			"metric": 14,
+			"lyric": "like"
+		}, {
+			"chord": "",
+			"metric": 1,
+			"lyric": "a"
+		}, {
+			"chord": "F",
+			"metric": 1,
+			"lyric": "dia - "
+		}, {
+			"chord": "",
+			"metric": 1,
+			"lyric": "mond"
+		}],
 		[{
-				"chord": "C",
-				"metric": 1,
-				"lyric": "in"
-			},
-			{
-				"chord": "",
-				"metric": 1,
-				"lyric": "the"
-			},
-			{
-				"chord": "G7",
-				"metric": 1,
-				"lyric": "sky."
-			},
-			{
-				"chord": "",
-				"metric": 1,
-				"lyric": ""
-			}
-		],
+			"chord": "C",
+			"metric": 1,
+			"lyric": "in"
+		}, {
+			"chord": "",
+			"metric": 1,
+			"lyric": "the"
+		}, {
+			"chord": "G7",
+			"metric": 1,
+			"lyric": "sky."
+		}, {
+			"chord": "",
+			"metric": 1,
+			"lyric": ""
+		}],
 		[{
-				"chord": "C",
-				"metric": 1,
-				"lyric": "Twin - "
-			},
-			{
-				"chord": "",
-				"metric": 1,
-				"lyric": "kle"
-			},
-			{
-				"chord": "",
-				"metric": 1,
-				"lyric": "twin - "
-			},
-			{
-				"chord": "",
-				"metric": 1,
-				"lyric": "kle"
-			}
-		],
+			"chord": "C",
+			"metric": 1,
+			"lyric": "Twin - "
+		}, {
+			"chord": "",
+			"metric": 1,
+			"lyric": "kle"
+		}, {
+			"chord": "",
+			"metric": 1,
+			"lyric": "twin - "
+		}, {
+			"chord": "",
+			"metric": 1,
+			"lyric": "kle"
+		}],
 		[{
-				"chord": "F",
-				"metric": 1,
-				"lyric": "lit - "
-			},
-			{
-				"chord": "",
-				"metric": 1,
-				"lyric": "tle"
-			},
-			{
-				"chord": "C",
-				"metric": 1,
-				"lyric": "star"
-			},
-			{
-				"chord": "C",
-				"metric": 1,
-				"lyric": ""
-			}
-		],
+			"chord": "F",
+			"metric": 1,
+			"lyric": "lit - "
+		}, {
+			"chord": "",
+			"metric": 1,
+			"lyric": "tle"
+		}, {
+			"chord": "C",
+			"metric": 1,
+			"lyric": "star"
+		}, {
+			"chord": "C",
+			"metric": 1,
+			"lyric": ""
+		}],
 		[{
-				"chord": "F",
-				"metric": 14,
-				"lyric": "How"
-			},
-			{
-				"chord": "",
-				"metric": 1,
-				"lyric": "I"
-			},
-			{
-				"chord": "C",
-				"metric": 1,
-				"lyric": "won -"
-			},
-			{
-				"chord": "",
-				"metric": 1,
-				"lyric": " der "
-			}
-		],
+			"chord": "F",
+			"metric": 14,
+			"lyric": "How"
+		}, {
+			"chord": "",
+			"metric": 1,
+			"lyric": "I"
+		}, {
+			"chord": "C",
+			"metric": 1,
+			"lyric": "won -"
+		}, {
+			"chord": "",
+			"metric": 1,
+			"lyric": " der "
+		}],
 		[{
-				"chord": "G7",
-				"metric": 14,
-				"lyric": "what"
-			},
-			{
-				"chord": "",
-				"metric": 1,
-				"lyric": "you"
-			},
-			{
-				"chord": "C",
-				"metric": 1,
-				"lyric": "are."
-			},
-			{
-				"chord": "",
-				"metric": 1,
-				"lyric": ""
-			}
-		]
+			"chord": "G7",
+			"metric": 14,
+			"lyric": "what"
+		}, {
+			"chord": "",
+			"metric": 1,
+			"lyric": "you"
+		}, {
+			"chord": "C",
+			"metric": 1,
+			"lyric": "are."
+		}, {
+			"chord": "",
+			"metric": 1,
+			"lyric": ""
+		}]
 	]
 }
 ```
