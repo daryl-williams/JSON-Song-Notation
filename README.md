@@ -7,7 +7,7 @@ So I started looking around for a system that would allow for a more sophisticat
 
 A song written in JSN might be rendered in any number of formats or styles for example:
 
-![Chord chart](http://weblane.com:3000/images//whiskey-for-breakfast-small.png) or perhaps as ![Chord chart](http://weblane.com:3000/images//wfb.png)
+![Chord chart](http://weblane.com:3000/images//twinkle-twinkle-jsn.png) or perhaps as ![Chord chart](http://weblane.com:3000/images//twinkle-twinkle-lmss.png)
 
 Depending on the client. To that end there is related project called SongWriter that is the proof of concept and initial reference implementation for the JSN client.
 
