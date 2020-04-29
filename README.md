@@ -6,10 +6,9 @@ Now there is a wealth of song material on the Internet and most every musician I
 So I started looking around for a system that would allow for a more sophisticated way to create these simple song charts of lyric and chords, to ensure more accuracy from the begining. The long and short of it is I was not able to find anything that was simple enough to use for this purpose. Yes, there are many music notation systems out there, if you look. From full blown applications like [Sibelius](https://www.avid.com/sibelius), [Finale](https://www.finalemusic.com/), [MuseScore](https://musescore.org) and [LilyPond](https://lilypond.org/) to formats such as [ChordPro](https://www.chordpro.org), [abc notation](http://abcnotation.com/) and others but what I wanted was more than that; and I wanted it to be open source. Now programs like MuseScore and Lilipond are free and open source but they are far from easy, at least for me. And they are too sophisticated, being able to produce a full blown score of beautiful sheet music. All I wanted are chords and lyrics in an open data format. And that is where the JSON Song Notation format comes in to play.
 
 A song written in JSN might be rendered in any number of formats or styles for example:
+
 ![Lead Sheet - JSN](https://user-images.githubusercontent.com/1044597/80631135-2697a580-8a0a-11ea-8254-8ec339a04bec.png)
-
 or perhaps:
-
 ![Lead Sheet - LMSS](https://user-images.githubusercontent.com/1044597/80634447-5d23ef00-8a0f-11ea-93e9-964e4c35be2d.png)
 
 Depending on the client. To that end there is related project called SongWriter that is the proof of concept and initial reference implementation for the JSN client.
