@@ -7,11 +7,11 @@ So I started looking around for a system that would allow for a more sophisticat
 
 A song's lead sheet written in JSN may be rendered in any number of formats or styles for example:
 
-![Lead Sheet](./images/twinkle-twinkle-jsn.png)
+![Lead Sheet](/images/twinkle-twinkle-jsn.png)
 
 or perhaps the more familar:
 
-![Lead Sheet](./images/twinkle-twinkle-lms.png)
+![Lead Sheet](/images/twinkle-twinkle-lms.png)
 
 Depending on the client software. To that end there is related project called SongWriter that is the proof of concept and initial reference implementation for the JSN client that is comming soon.
 
