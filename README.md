@@ -7,7 +7,7 @@ So I started looking around for a system that would allow for a more sophisticat
 
 A song's lead sheet written in JSN may be rendered in any number of formats or styles for example:
 
-<img alt="Example JSN Notation output" src="./images/twinkle-twinkle-jsn.png">
+[Lead Sheet](./images/twinkle-twinkle-jsn.png)
 
 A song represented in JSN consists of a header which is a JSON object and a body which is a JSON array. The header contains song metadata and the body is an array containing the measures and beats of the song. The song's measures are represented as a JSON object consisting of two JSON object. The first is an optional header (currently not used) and second is the "beats" object containing some number of voices which are represented as the object's name/value pairs. The value of the voice is a simple lexical value, but that could could change in the future.
 
