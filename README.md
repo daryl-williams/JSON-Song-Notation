@@ -9,6 +9,9 @@ A song written in JSN might be rendered in any number of formats or styles for e
 
 ![Twinkle, Twinkle - JSN](https://user-images.githubusercontent.com/1044597/80631135-2697a580-8a0a-11ea-8254-8ec339a04bec.png)
 
+or perhaps:
+
+
 
 Depending on the client. To that end there is related project called SongWriter that is the proof of concept and initial reference implementation for the JSN client.
 
