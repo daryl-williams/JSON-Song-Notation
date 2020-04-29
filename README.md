@@ -7,17 +7,18 @@ So I started looking around for a system that would allow for a more sophisticat
 
 A song's lead sheet written in JSN may be rendered in any number of formats or styles for example:
 
-![Lead Sheet - JSN](https://user-images.githubusercontent.com/1044597/80631135-2697a580-8a0a-11ea-8254-8ec339a04bec.png)
+![Lead Sheet - JSN](./images/twinkle-twinkle-jsn.png)
 
 or perhaps the more familar:
 
-![Lead Sheet - LMSS](https://user-images.githubusercontent.com/1044597/80634447-5d23ef00-8a0f-11ea-93e9-964e4c35be2d.png)
+![Lead Sheet - JSN](./images/twinkle-twinkle-lmss.png)
 
 Depending on the client software. To that end there is related project called SongWriter that is the proof of concept and initial reference implementation for the JSN client.
 
 A song represented in JSN consists of a header which is a JSON object and a body which is a JSON array. The header contains song metadata and the body is an array containing the measures and beats of the song. The song's measures are represented as a JSON object consisting of two JSON object. The first is an optional header (currently not used) and second is the "beats" object containing some number of voices which are represented as the object's name/value pairs. The value of the voice is a simple lexical value, but that could could change in the future.
 
-To view the above song's JSON song notation you may download the following PDF file: [JSN Example](./jsn-example-pdf.pdf)
+Here is an example of the JSON Song Notation for the above song as a PDF file: [JSN Example](./jsn-example-pdf.pdf)
+Here is an example of the JSON Song Notation for the above song as a TXT file: [JSN Example](./jsn-example-txt.txt)
 
 Or Check it out here:
 
