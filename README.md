@@ -11,7 +11,7 @@ A song's lead sheet written in JSN may be rendered in any number of formats or s
 
 or perhaps the more familar:
 
-<img alt="Example JSN Notation output" src="./images/twinkle-twinkle-lmss.png">
+<a href="/images/twinkle-twinkle-lmss.png"><img alt="Example JSN Notation output" src="./images/twinkle-twinkle-lmss.png"></a>
 
 Depending on the client software. To that end there is related project called SongWriter that is the proof of concept and initial reference implementation for the JSN client that is comming soon.
 
