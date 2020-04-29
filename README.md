@@ -19,6 +19,7 @@ A song represented in JSN consists of a header which is a JSON object and a body
 
 The following very simple example defines a JSN structure with one measure from the song Twinkle, Twinkle Little Star:
 
+```json
 {
 	"header": {
 		"key": "C",
@@ -38,10 +39,11 @@ The following very simple example defines a JSN structure with one measure from 
 		}]
 	]
 }
+```
 
 Here is the full song Twinkle, Twinkle Little Star rendered in JSN format: [JSN Example](./jsn-example-txt.txt)
 
-Or view it here:
+Or view the whole song here:
 
 ```json
 {
