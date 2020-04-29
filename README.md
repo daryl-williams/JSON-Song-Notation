@@ -15,6 +15,11 @@ Depending on the client. To that end there is related project called SongWriter 
 
 A song represented in JSN consists of a header which is a JSON object and a body which is a JSON array. The header contains song metadata and the body is an array containing the measures and beats of the song. The song's measures are represented as a JSON object consisting of two JSON object. The first is an optional header (currently not used) and second is the "beats" object containing some number of voices which are represented as the object's name/value pairs. The value of the voice is a simple lexical value, but that could could change in the future.
 
+Check out the JSN notation for this song at:
+
+[Twinkle Twinkle.pdf](https://github.com/daryl-williams/JSON-Song-Notation/files/4553987/Twinkle.Twinkle.pdf)
+
+
 Following is a descriptive layout of the JSN format, representing an example song in 4/4 time with 12 measures:
 
 ```json
