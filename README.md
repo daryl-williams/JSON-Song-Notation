@@ -7,7 +7,7 @@ So I started looking around for a system that would allow for a more sophisticat
 
 A song's lead sheet written in JSN may be rendered in any number of formats or styles for example:
 
-<img alt="Example JSN Notation output" src="./images/twinkle-twinkle-jsn.png">
+<a href="/images/twinkle-twinkle-jsn.png"><img alt="Example JSN Notation output" src="./images/twinkle-twinkle-jsn.png"></a>
 
 or perhaps the more familar:
 
