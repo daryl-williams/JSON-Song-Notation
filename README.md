@@ -20,7 +20,7 @@ A song represented in JSN consists of a header which is a JSON object and a body
 
 Here is an example of the JSON Song Notation for the above song as a TXT file: [JSN Example](./jsn-example-txt.txt)
 
-Or Check it out here:
+Or view it here:
 
 ```json
 {
