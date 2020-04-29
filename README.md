@@ -17,8 +17,7 @@ A song represented in JSN consists of a header which is a JSON object and a body
 
 Check out the JSN notation for this song at:
 
-[Twinkle Twinkle.pdf](https://github.com/daryl-williams/JSON-Song-Notation/files/4553987/Twinkle.Twinkle.pdf)
-
+![Twinkle Twinkle - JSN](https://user-images.githubusercontent.com/1044597/80637220-79298f80-8a13-11ea-9431-f21c7772d1bc.png)
 
 Following is a descriptive layout of the JSN format, representing an example song in 4/4 time with 12 measures:
 
