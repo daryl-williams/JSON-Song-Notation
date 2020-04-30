@@ -44,7 +44,7 @@ The following very simple example defines a full (if very short) song defined as
       "beat": 1,
       "lyric": "kle, "
     }, {
-      "chord": "",
+     "chord": "",
       "beat": 1,
       "lyric": "twin - "
     }, {
