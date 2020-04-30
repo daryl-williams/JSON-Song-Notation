@@ -39,7 +39,19 @@ The following very simple example defines a full (if very short) song defined as
 			"chord": "C",
 			"beat": "1",
 			"lyric": "Twin - "
-		}]
+		}, {
+      "chord": "",
+      "beat": 1,
+      "lyric": "kle, "
+    }, {
+      "chord": "",
+      "beat": 1,
+      "lyric": "twin - "
+    }, {
+      "chord": "",
+      "beat": 1,
+      "lyric": "kle, "
+    }]
 	]
 }
 ```
@@ -63,206 +75,206 @@ Or view the whole song here:
 	"body": [
 		[{
 			"chord": "C",
-			"metric": 1,
+			"beat": 1,
 			"lyric": "Twin - "
 		}, {
 			"chord": "",
-			"metric": 1,
+			"beat": 1,
 			"lyric": "kle, "
 		}, {
 			"chord": "",
-			"metric": 1,
+			"beat": 1,
 			"lyric": "twin - "
 		}, {
 			"chord": "",
-			"metric": 1,
+			"beat": 1,
 			"lyric": "kle, "
 		}],
 		[{
 			"chord": "F",
-			"metric": 1,
+			"beat": 1,
 			"lyric": "lit - "
 		}, {
 			"chord": "",
-			"metric": 1,
+			"beat": 1,
 			"lyric": "tle "
 		}, {
 			"chord": "C",
-			"metric": 1,
+			"beat": 1,
 			"lyric": "star,"
 		}, {
 			"chord": "",
-			"metric": 1,
+			"beat": 1,
 			"lyric": ""
 		}],
 		[{
 			"chord": "F",
-			"metric": 14,
+			"beat": 14,
 			"lyric": "How"
 		}, {
 			"chord": "",
-			"metric": 1,
+			"beat": 1,
 			"lyric": "I"
 		}, {
 			"chord": "C",
-			"metric": 1,
+			"beat": 1,
 			"lyric": "won -"
 		}, {
 			"chord": "",
-			"metric": 1,
+			"beat": 1,
 			"lyric": " der "
 		}],
 		[{
 			"chord": "G7",
-			"metric": 14,
+			"beat": 14,
 			"lyric": "what"
 		}, {
 			"chord": "",
-			"metric": 1,
+			"beat": 1,
 			"lyric": "you"
 		}, {
 			"chord": "C",
-			"metric": 1,
+			"beat": 1,
 			"lyric": "are."
 		}, {
 			"chord": "",
-			"metric": 1,
+			"beat": 1,
 			"lyric": ""
 		}],
 		[{
 			"chord": "C",
-			"metric": 1,
+			"beat": 1,
 			"lyric": "Up"
 		}, {
 			"chord": "",
-			"metric": 1,
+			"beat": 1,
 			"lyric": "a - "
 		}, {
 			"chord": "F",
-			"metric": 1,
+			"beat": 1,
 			"lyric": "bove"
 		}, {
 			"chord": "",
-			"metric": 1,
+			"beat": 1,
 			"lyric": "the "
 		}],
 		[{
 			"chord": "C",
-			"metric": 14,
+			"beat": 14,
 			"lyric": "world"
 		}, {
 			"chord": "",
-			"metric": 1,
+			"beat": 1,
 			"lyric": "so"
 		}, {
 			"chord": "G7",
-			"metric": 1,
+			"beat": 1,
 			"lyric": "high,"
 		}, {
 			"chord": "",
-			"metric": 1,
+			"beat": 1,
 			"lyric": ""
 		}],
 		[{
 			"chord": "C",
-			"metric": 14,
+			"beat": 14,
 			"lyric": "like"
 		}, {
 			"chord": "",
-			"metric": 1,
+			"beat": 1,
 			"lyric": "a"
 		}, {
 			"chord": "F",
-			"metric": 1,
+			"beat": 1,
 			"lyric": "dia - "
 		}, {
 			"chord": "",
-			"metric": 1,
+			"beat": 1,
 			"lyric": "mond"
 		}],
 		[{
 			"chord": "C",
-			"metric": 1,
+			"beat": 1,
 			"lyric": "in"
 		}, {
 			"chord": "",
-			"metric": 1,
+			"beat": 1,
 			"lyric": "the"
 		}, {
 			"chord": "G7",
-			"metric": 1,
+			"beat": 1,
 			"lyric": "sky."
 		}, {
 			"chord": "",
-			"metric": 1,
+			"beat": 1,
 			"lyric": ""
 		}],
 		[{
 			"chord": "C",
-			"metric": 1,
+			"beat": 1,
 			"lyric": "Twin - "
 		}, {
 			"chord": "",
-			"metric": 1,
+			"beat": 1,
 			"lyric": "kle"
 		}, {
 			"chord": "",
-			"metric": 1,
+			"beat": 1,
 			"lyric": "twin - "
 		}, {
 			"chord": "",
-			"metric": 1,
+			"beat": 1,
 			"lyric": "kle"
 		}],
 		[{
 			"chord": "F",
-			"metric": 1,
+			"beat": 1,
 			"lyric": "lit - "
 		}, {
 			"chord": "",
-			"metric": 1,
+			"beat": 1,
 			"lyric": "tle"
 		}, {
 			"chord": "C",
-			"metric": 1,
+			"beat": 1,
 			"lyric": "star"
 		}, {
 			"chord": "C",
-			"metric": 1,
+			"beat": 1,
 			"lyric": ""
 		}],
 		[{
 			"chord": "F",
-			"metric": 14,
+			"beat": 14,
 			"lyric": "How"
 		}, {
 			"chord": "",
-			"metric": 1,
+			"beat": 1,
 			"lyric": "I"
 		}, {
 			"chord": "C",
-			"metric": 1,
+			"beat": 1,
 			"lyric": "won -"
 		}, {
 			"chord": "",
-			"metric": 1,
+			"beat": 1,
 			"lyric": " der "
 		}],
 		[{
 			"chord": "G7",
-			"metric": 14,
+			"beat": 14,
 			"lyric": "what"
 		}, {
 			"chord": "",
-			"metric": 1,
+			"beat": 1,
 			"lyric": "you"
 		}, {
 			"chord": "C",
-			"metric": 1,
+			"beat": 1,
 			"lyric": "are."
 		}, {
 			"chord": "",
-			"metric": 1,
+			"beat": 1,
 			"lyric": ""
 		}]
 	]
