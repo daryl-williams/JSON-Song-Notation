@@ -1,4 +1,4 @@
-Example of a song with 12 measures in 4/4 time in JSON Song Notation:
+// Example of a song in JSON Song Notation with 12 measures, and in 4/4 time:
 
 {
 	"header": {
