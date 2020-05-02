@@ -1,3 +1,5 @@
+// This is an example of a song in JSON Song Notation (JSN) version 2.
+// The song is in 4/4 time and contains only one measure.
 
 {
 	"body": [
