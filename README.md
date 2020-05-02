@@ -24,35 +24,24 @@ The following very simple example defines a full (if very short) song defined as
 
 ```json
 {
-	"header": {
-		"key": "C",
-		"tags": "",
-		"title": "Twinkle Twinkle",
-		"composer": "Traditional",
-		"capo_at_fret": "",
-		"time_signature": "4/4",
-		"beats_per_bar": "4",
-		"number_of_bars": "1"
-	},
-	"body": [
-		[{
-			"chord": "C",
-			"beat": "1",
-			"lyric": "Twin - "
-		}, {
-			"chord": "",
-			"beat": 1,
-			"lyric": "kle, "
-		}, {
-			"chord": "",
-			"beat": 1,
-			"lyric": "twin - "
-		}, {
-			"chord": "",
-			"beat": 1,
-			"lyric": "kle, "
-		}]
-	]
+  "header": {
+    "key": "C",
+    "tags": "",
+    "title": "Twinkle Twinkle",
+    "composer": "Traditional",
+    "capo_at_fret": "",
+    "time_signature": "4/4",
+    "beats_per_bar": 4,
+    "number_of_bars": 12
+  },
+  "body": [
+    [
+      {"chord": "C"}, {"beat":1}, {"lyric": "Twin -"},
+      {"chord": ""}, {"beat":1}, {"lyric": "kle, "},
+      {"chord": ""}, {"beat":1}, {"lyric": "twin -"},
+      {"chord": ""}, {"beat":1}, {"lyric": "kle, "}
+    ]
+  ]
 }
 ```
 
