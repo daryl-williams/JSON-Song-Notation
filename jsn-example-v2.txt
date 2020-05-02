@@ -1,0 +1,80 @@
+{
+	"header": {
+		"key": "",
+		"tags": "",
+		"title": "",
+		"composer": "",
+		"capo_at_fret": "",
+		"time_signature": "",
+		"beats_per_bar": "int",
+		"number_of_bars": "int"
+	},
+	"body": [
+		[
+			{
+				"voices": [
+					{
+						"type": "chord",
+						"value": "C"
+					},
+					{
+						"type": "beat",
+						"value": 1
+					},
+					{
+						"type": "lyric",
+						"value": "Twin - "
+					}
+				]
+			},
+			{
+				"voices": [
+					{
+						"type": "chord",
+						"value": ""
+					},
+					{
+						"type": "beat",
+						"value": 1
+					},
+					{
+						"type": "lyric",
+						"value": "kle, "
+					}
+				]
+			},
+			{
+				"voices": [
+					{
+						"type": "chord",
+						"value": ""
+					},
+					{
+						"type": "beat",
+						"value": 1
+					},
+					{
+						"type": "lyric",
+						"value": "twin - "
+					}
+				]
+			},
+			{
+				"voices": [
+					{
+						"type": "chord",
+						"value": ""
+					},
+					{
+						"type": "beat",
+						"value": 1
+					},
+					{
+						"type": "lyric",
+						"value": "kle, "
+					}
+				]
+			}
+		]
+	]
+}

@@ -1,0 +1,28 @@
+
+{
+	"body": [
+		[
+			{
+				"voices": [
+					{"type": "chord", "value": "C"}, {"type": "beat",  "value": 1}, {"type": "lyric", "value": "Twin - "}
+				]
+			},
+			{
+				"voices": [
+					{"type": "chord", "value": "C"}, {"type": "beat",  "value": 1}, {"type": "lyric", "value": "kle, "}
+				]
+			},
+			{
+				"voices": [
+					{"type": "chord", "value": "C"}, {"type": "beat",  "value": 1}, {"type": "lyric", "value": "twin - "}
+				]
+			},
+			{
+				"voices": [
+					{"type": "chord", "value": "C"}, {"type": "beat",  "value": 1}, {"type": "lyric", "value": "kle, "}
+				]
+			}
+		]
+	]
+}
+
