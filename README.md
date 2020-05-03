@@ -18,7 +18,7 @@ or perhaps the more familar:
 Depending on the client software. To that end there is related project called SongWriter that is the proof of concept and initial reference implementation for the JSN client that is comming soon.
 
 # Technical Details
-A song expressed in JSN consists of a header (a JSON object) and a body (a JSON array). The header contains song metadata such as the title, composer, key, time signature, number of measures, etc. and the body is an array containing the measures and beats of the song. Each measure contains an array of beats and each beat (a JSON ojbect) contains some number of "voices" that occur during that beat, i.e. chord, lyric, etc. The value of a "voice" is a simple lexical value.
+A song expressed in JSN consists of a header (a JSON object) and a body (a JSON array). The header contains song metadata such as title, composer, key, time signature, number of measures, etc. and the body is an array containing the measures and beats of the song. Each measure contains an array of beats and each beat (a JSON ojbect) contains some number of "voices" that occur during that beat, i.e. a chord, lyric, etc. The value of a "voice" is a simple lexical value.
 
 The following very simple example defines a full (if very short) song defined as a JSN structure with only one measure from the song Twinkle, Twinkle Little Star:
 
