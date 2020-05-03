@@ -1,9 +1,11 @@
-// This is an example of a song in JSON Song Notation (JSN) version 2.
-// The song is in 4/4 time and contains only one measure so it may
-// be visualized better. JSN version 2 is not a working schema and
-// is under consideration to replace version 1 if sufficient benefits
-// can be derived, for example the addition of a (optional?) header
-// in  each measure that may be used to note a change of key or tempo.
+/*
+ *This is an example of a song in JSON Song Notation (JSN) version 2.
+ * The song is in 4/4 time and contains only one measure so it may
+ * be visualized better. JSN version 2 is not a working schema and
+ * is under consideration to replace version 1 if sufficient benefits
+ * can be derived, for example the addition of a (optional?) header
+ * in  each measure that may be used to note a change of key or tempo.
+ */
 
 {
 	"body": [
