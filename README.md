@@ -45,7 +45,7 @@ The following very simple example defines a full (if very short) song defined as
 }
 ```
 
-Here is the full song rendered in JSN format: [Twinkle Twinkle Little Star](./jsn-example-v1.txt)
+Here is the full song rendered in JSN format: [Twinkle Twinkle Little Star](./jsn-example-v1.txt).
 
 Or view the whole song here:
 
