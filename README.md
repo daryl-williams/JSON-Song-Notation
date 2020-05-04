@@ -270,6 +270,6 @@ Or view the whole song here:
 }
 ```
 
-There is also work underway on a JSN version 2 that might replace version 1 if appropriate: [JSN version 2](jsn-example-v2.txt).
+There is also work underway on a JSN version 2 that might replace version 1 if appropriate: [JSN version 2](jsn-simple-example-v2.txt).
 
 
