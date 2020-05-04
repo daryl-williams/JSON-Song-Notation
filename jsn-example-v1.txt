@@ -1,7 +1,7 @@
 /*
  * This is an example of a song in JSON Song Notation (JSN) version 1.
  *
- * The song is in 4/4 time and contains 12 measures.
+ * The song consists of 12 measure in 4/4 time.
  */
 
 {
