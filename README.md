@@ -64,76 +64,76 @@ Or view the whole song here:
   "body": [
     [
       { "chord": "C", "beat": 1, "lyric": "Twin - " },
-      { "chord": "", "beat": 1, "lyric": "kle, " },
-      { "chord": "", "beat": 1, "lyric": "twin - " },
-      { "chord": "", "beat": 1, "lyric": "kle, " }
+      { "chord": "",  "beat": 1, "lyric": "kle, " },
+      { "chord": "",  "beat": 1, "lyric": "twin - " },
+      { "chord": "",  "beat": 1, "lyric": "kle, " }
     ],
     [
       { "chord": "F", "beat": 1, "lyric": "lit - " },
-      { "chord": "", "beat": 1, "lyric": "tle " },
+      { "chord": "",  "beat": 1, "lyric": "tle " },
       { "chord": "C", "beat": 1, "lyric": "star," },
-      { "chord": "", "beat": 1, "lyric": "" }
+      { "chord": "",  "beat": 1, "lyric": "" }
     ],
     [
-      { "chord": "F", "beat": 14, "lyric": "How" },
-      { "chord": "", "beat": 1, "lyric": "I" },
+      { "chord": "F", "beat": 1, "lyric": "How" },
+      { "chord": "",  "beat": 1, "lyric": "I" },
       { "chord": "C", "beat": 1, "lyric": "won -" },
-      { "chord": "", "beat": 1, "lyric": " der " }
+      { "chord": "",  "beat": 1, "lyric": " der " }
     ],
     [
       {
-      "chord": "G7", "beat": 14, "lyric": "what" },
-      { "chord": "", "beat": 1, "lyric": "you" },
+      "chord": "G7",  "beat": 1, "lyric": "what" },
+      { "chord": "",  "beat": 1, "lyric": "you" },
       { "chord": "C", "beat": 1, "lyric": "are." },
-      { "chord": "", "beat": 1, "lyric": "" }
+      { "chord": "",  "beat": 1, "lyric": "" }
     ],
     [
       { "chord": "C", "beat": 1, "lyric": "Up" },
-      { "chord": "", "beat": 1, "lyric": "a - " },
+      { "chord": "",  "beat": 1, "lyric": "a - " },
       { "chord": "F", "beat": 1, "lyric": "bove" },
-      { "chord": "", "beat": 1, "lyric": "the " }
+      { "chord": "",  "beat": 1, "lyric": "the " }
     ],
     [
-      { "chord": "C", "beat": 14, "lyric": "world" },
-      { "chord": "", "beat": 1, "lyric": "so" },
+      { "chord": "C",  "beat": 1, "lyric": "world" },
+      { "chord": "",   "beat": 1, "lyric": "so" },
       { "chord": "G7", "beat": 1, "lyric": "high," },
-      { "chord": "", "beat": 1, "lyric": "" }
+      { "chord": "",   "beat": 1, "lyric": "" }
     ],
     [
-      { "chord": "C", "beat": 14, "lyric": "like" },
-      { "chord": "", "beat": 1, "lyric": "a" },
+      { "chord": "C", "beat": 1, "lyric": "like" },
+      { "chord": "",  "beat": 1, "lyric": "a" },
       { "chord": "F", "beat": 1, "lyric": "dia - " },
-      { "chord": "", "beat": 1, "lyric": "mond" }
+      { "chord": "",  "beat": 1, "lyric": "mond" }
     ],
     [
-      { "chord": "C", "beat": 1, "lyric": "in" },
-      { "chord": "", "beat": 1, "lyric": "the" },
+      { "chord": "C",  "beat": 1, "lyric": "in" },
+      { "chord": "",   "beat": 1, "lyric": "the" },
       { "chord": "G7", "beat": 1, "lyric": "sky." },
-      { "chord": "", "beat": 1, "lyric": "" }
+      { "chord": "",   "beat": 1, "lyric": "" }
     ],
     [
       { "chord": "C", "beat": 1, "lyric": "Twin - " },
-      { "chord": "", "beat": 1, "lyric": "kle" },
-      { "chord": "", "beat": 1, "lyric": "twin - " },
-      { "chord": "", "beat": 1, "lyric": "kle" }
+      { "chord": "",  "beat": 1, "lyric": "kle" },
+      { "chord": "",  "beat": 1, "lyric": "twin - " },
+      { "chord": "",  "beat": 1, "lyric": "kle" }
     ],
     [
       { "chord": "F", "beat": 1, "lyric": "lit - " },
-      { "chord": "", "beat": 1, "lyric": "tle" },
+      { "chord": "",  "beat": 1, "lyric": "tle" },
       { "chord": "C", "beat": 1, "lyric": "star" },
       { "chord": "C", "beat": 1, "lyric": "" }
     ],
     [
-      { "chord": "F", "beat": 14, "lyric": "How" },
-      { "chord": "", "beat": 1, "lyric": "I" },
+      { "chord": "F", "beat": 1, "lyric": "How" },
+      { "chord": "",  "beat": 1, "lyric": "I" },
       { "chord": "C", "beat": 1, "lyric": "won -" },
-      { "chord": "", "beat": 1, "lyric": " der " }
+      { "chord": "",  "beat": 1, "lyric": " der " }
     ],
     [
-      { "chord": "G7", "beat": 14, "lyric": "what" },
-      { "chord": "", "beat": 1, "lyric": "you" },
-      { "chord": "C", "beat": 1, "lyric": "are." },
-      { "chord": "", "beat": 1, "lyric": "" }
+      { "chord": "G7", "beat": 1, "lyric": "what" },
+      { "chord": "",   "beat": 1, "lyric": "you" },
+      { "chord": "C",  "beat": 1, "lyric": "are." },
+      { "chord": "",   "beat": 1, "lyric": "" }
     ]
   ]
 }
