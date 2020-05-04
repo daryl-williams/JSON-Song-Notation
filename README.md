@@ -57,7 +57,7 @@ Or view the whole song here:
     "title": "Twinkle Twinkle",
     "composer": "Traditional",
     "capo_at_fret": "",
-    "time_signature": "4\/4",
+    "time_signature": "4/4",
     "beats_per_bar": 4,
     "number_of_bars": 12
   },
