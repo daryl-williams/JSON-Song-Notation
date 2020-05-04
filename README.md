@@ -269,5 +269,6 @@ Or view the whole song here:
 	]
 }
 ```
-There is also a JSN version 2 under development and consideration to replace version 1. [JSN version2(jsn-example-v2.txt).
+
+There is also work underway on JSN version 2 that might replace version 1 if appropriate: [JSN version 2](jsn-example-v2.txt).
 
